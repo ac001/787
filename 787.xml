@@ -55,7 +55,7 @@ Mach 1 = 576.6 kt @ 35,000 ft -->
           width="5.9" taper="0.62"/>
 <fuselage ax="16.0" ay="0" az="1.4" bx="-13.6" by="0.00" bz="1.4"
           width="5.9" taper="1.0" midpoint="0.4"/>
-<fuselage ax="-13.6" ay="0" az="1.4" bx="-13.6" by="0.00" bz="1.4"
+<fuselage ax="13.6" ay="0" az="1.4" bx="-13.6" by="0.00" bz="1.4"
           width="5.9" taper="0.1" midpoint="0"/>
 
 <fuselage ax="8.3" ay="9.65" az="1.1" bx="-1.8" by="9.8" bz="1.1"
