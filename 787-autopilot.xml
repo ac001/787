@@ -131,9 +131,9 @@
     <input>
       <prop>/autopilot/internal/true-heading-error-deg</prop>
     </input>
-    <target>
+    <!--<target> caused BUG??
       <prop>0.0</prop>
-    </target>
+    </target>-->
     <output>
       <prop>/autopilot/internal/target-roll-deg</prop>
     </output>
@@ -202,11 +202,11 @@
     </output>
     <config>
       <Kp>-3.0</Kp>        <!-- proportional gain -->
-      <beta>1.0</beta>     <!-- input value weighing factor -->
-      <alpha>0.1</alpha>   <!-- low pass filter weighing factor -->
-      <gamma>0.0</gamma>   <!-- input value weighing factor for -->
+      <!--<beta>1.0</beta> causes bug -->     <!-- input value weighing factor -->
+      <!--<alpha>0.1</alpha>-->   <!-- low pass filter weighing factor -->
+      <!-- <gamma>0.0</gamma> -->   <!-- input value weighing factor for -->
                            <!-- unfiltered derivative error -->
-      <Ti>15.0</Ti>        <!-- integrator time -->
+      <!--<Ti>15.0</Ti>-->        <!-- integrator time -->
       <u_min>-30.0</u_min> <!-- minimum output clamp -->
       <u_max>30.0</u_max>  <!-- maximum output clamp -->
     </config>
