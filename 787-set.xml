@@ -123,6 +123,13 @@
                             <script>aircraft.livery.dialog.toggle()</script>
                         </binding>
                     </item>
+                    <item>
+                        <label>Autostart</label>
+                        <binding>
+                            <command>nasal</command>
+                            <script>autostart.start()</script>
+                        </binding>
+                    </item>
                 </menu>
             </default>
         </menubar>
@@ -211,6 +218,9 @@
     <reversethrust>
       <file>Aircraft/787/Nasal/reverse-thrust.nas</file>
     </reversethrust>
+    <autostart>
+      <file>Aircraft/787/Nasal/autostart.nas</file>
+    </autostart>
   </nasal>
   
 </PropertyList>
